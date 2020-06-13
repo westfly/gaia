@@ -9,7 +9,7 @@ Package app 生成swagger文档
 	swag init --generalInfo ./internal/app/swagger.go --output ./internal/app/swagger */
 package app
 
-// @title gin-admin
+// @title gaia
 // @version 6.0.0
 // @description RBAC scaffolding based on GIN + GORM/MONGO + CASBIN + WIRE.
 // @schemes http https

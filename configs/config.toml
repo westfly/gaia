@@ -48,7 +48,7 @@ Format = "text"
 # 日志输出(支持：stdout/stderr/file)
 Output = "stdout"
 # 指定日志输出的文件路径
-OutputFile = "data/gin-admin.log"
+OutputFile = "data/gaia.log"
 # 是否启用日志钩子
 EnableHook = false
 # 日志钩子(支持：gorm/mongo)
@@ -104,7 +104,7 @@ Enable = true
 # 签名方式(支持：HS512/HS384/HS512)
 SigningMethod = "HS512"
 # 签名key
-SigningKey = "gin-admin"
+SigningKey = "gaia"
 # 过期时间（单位秒）
 Expired = 7200
 # 存储(支持：file/redis)
@@ -187,7 +187,7 @@ User = "root"
 # 密码
 Password = "123456"
 # 数据库
-DBName = "gin-admin"
+DBName = "gaia"
 # 连接参数
 Parameters = "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
 
@@ -201,13 +201,13 @@ User = "root"
 # 密码
 Password = "123456"
 # 数据库
-DBName = "gin-admin"
+DBName = "gaia"
 # SSL模式
 SSLMode = "disable"
 
 [Sqlite3]
 # 数据库路径
-Path = "data/gin-admin.db"
+Path = "data/gaia.db"
 
 # mongo需要满足以下条件：
 # 4.0以上版本
@@ -219,9 +219,9 @@ Path = "data/gin-admin.db"
 # StorageEngine(存储引擎)须是wiredTiger (支持文档级别的锁)，4.0以上版本已经默认支持
 [Mongo]
 # 连接地址(mongodb://user:password@localhost:27017/?authSource=admin)
-URI = "mongodb://localhost:27017/?appName=gin-admin"
+URI = "mongodb://localhost:27017/?appName=gaia"
 # 数据库
-Database = "gin-admin"
+Database = "gaia"
 # 连接超时(单位秒)
 Timeout = 30
 # 集合名前缀
